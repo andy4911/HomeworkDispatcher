@@ -1,6 +1,6 @@
 //
-//  UITextField+JJValidate.h
-//  JobJun
+//  UITextField+HDValidate.h
+//  HomeworkDispatcher
 //
 //  Created by Apple on 16/5/24.
 //  Copyright © 2016年 Apple. All rights reserved.
@@ -13,7 +13,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField (JJValidate)
+@interface UITextField (HDValidate)
 
 /*判定是否为空*/
 

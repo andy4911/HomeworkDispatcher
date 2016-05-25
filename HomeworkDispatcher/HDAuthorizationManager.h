@@ -7,20 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JJCommon.h"
+#import "HDCommon.h"
 
 typedef NS_ENUM(int, JKSNSType){
     // 新浪微博
-    JJSNSSinaWeibo  =1,
+    HDSNSSinaWeibo  =1,
     
     // QQ
-    JJSNSQQ         =2,
+    HDSNSQQ         =2,
     
     // 微信
-    JJSNSWeiXin      =3,
+    HDSNSWeiXin      =3,
 };
 
-@interface JJAuthorizationManager : NSObject
+@interface HDAuthorizationManager : NSObject
 /**
  *  单例创建
  */
@@ -37,16 +37,16 @@ typedef NS_ENUM(int, JKSNSType){
  @param plateform 第三方登录的平台
  @param block The block to execute. The block should have the following argument signature: (Bool  success, NSError *error)
  */
-- (void)thirdPartySignInWithPlateform:(JKSNSType)plateform callBack:(JJBooleanResultBlock)block;
+- (void)thirdPartySignInWithPlateform:(JKSNSType)plateform callBack:(HDBooleanResultBlock)block;
 
 /*
  账号登录
  @param block The block to execute. The block should have the following argument signature: (Bool  success, NSError *error)
  @success 这个参数请无视
 */
-- (void)signInWithUserName:(NSString *)name password:(NSString *)password callBack:(JJBooleanResultBlock)block;
+- (void)signInWithUserName:(NSString *)name password:(NSString *)password callBack:(HDBooleanResultBlock)block;
 
-- (void)registerWithUserName:(NSString *)name andPassword:(NSString *)password callBack:(JJBooleanResultBlock)block;
+- (void)registerWithUserName:(NSString *)name andPassword:(NSString *)password callBack:(HDBooleanResultBlock)block;
 
 //登出
 - (void)LoginOut;
@@ -54,7 +54,7 @@ typedef NS_ENUM(int, JKSNSType){
 //修改密码
 //需要处于登录状态
 //@param block The block to execute. The block should have the following argument signature: (id object, NSError *error)
-- (void)changPasswordFrom:(NSString *)oldPassword to:(NSString *)newPassword callBack:(JJIdResultBlock)block;
+- (void)changPasswordFrom:(NSString *)oldPassword to:(NSString *)newPassword callBack:(HDIdResultBlock)block;
 
 /**
  *  根据一个或多个userID获取相应AVUser
@@ -62,7 +62,7 @@ typedef NS_ENUM(int, JKSNSType){
  *  @param userIDs 包含userID的array
  *  @param block
  */
-- (void)findUsersByIDs:(NSArray *)userIDs callBack:(JJArrayResultBlock)block;
+- (void)findUsersByIDs:(NSArray *)userIDs callBack:(HDArrayResultBlock)block;
 
 /**
  *  根据name的一部分获取相应AVUser
@@ -70,6 +70,6 @@ typedef NS_ENUM(int, JKSNSType){
  *  @param name
  *  @param block
  */
-- (void)findUsersByPartname:(NSString *)name callBack:(JJArrayResultBlock)block;
+- (void)findUsersByPartname:(NSString *)name callBack:(HDArrayResultBlock)block;
 
 @end

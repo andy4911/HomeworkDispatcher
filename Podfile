@@ -1,4 +1,4 @@
-target 'JobJun' do
+target 'HomeworkDispatcher' do
 pod 'AVOSCloud'
 pod 'Masonry'
 pod 'LeanCloudSocial'

@@ -1,6 +1,6 @@
 //
-//  JobJunTests.m
-//  JobJunTests
+//  HomeworkDispatcherTests.m
+//  HomeworkDispatcherTests
 //
 //  Created by Apple on 16/5/24.
 //  Copyright © 2016年 Apple. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface JobJunTests : XCTestCase
+@interface HomeworkDispatcherTests : XCTestCase
 
 @end
 
-@implementation JobJunTests
+@implementation HomeworkDispatcherTests
 
 - (void)setUp {
     [super setUp];

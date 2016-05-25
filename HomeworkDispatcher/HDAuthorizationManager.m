@@ -6,23 +6,23 @@
 //  Copyright © 2016年 猫儿出墙. All rights reserved.
 //
 
-#import "JJAuthorizationManager.h"
+#import "HDAuthorizationManager.h"
 #import <AVOSCloud.h>
 #import <AVOSCloudSNS.h>
 #import <AVUser+SNS.h>
 
-static JJAuthorizationManager *manager;
+static HDAuthorizationManager *manager;
 
-@interface JJAuthorizationManager ()
+@interface HDAuthorizationManager ()
 
 @end
 
-@implementation JJAuthorizationManager
+@implementation HDAuthorizationManager
 
 + (instancetype)manager {
     static dispatch_once_t token;
     dispatch_once(&token, ^{
-        manager = [[JJAuthorizationManager alloc] init];
+        manager = [[HDAuthorizationManager alloc] init];
     });
     return manager;
 }
@@ -41,7 +41,7 @@ static JJAuthorizationManager *manager;
     return isSuccess;
 }
 
-- (void)thirdPartySignInWithPlateform:(JKSNSType)plateform callBack:(JJBooleanResultBlock)block {
+- (void)thirdPartySignInWithPlateform:(JKSNSType)plateform callBack:(HDBooleanResultBlock)block {
     [AVOSCloudSNS loginWithCallback:^(id object, NSError *error) {
         if (error) {
             NSLog(@"SNS登录失败");
@@ -70,13 +70,13 @@ static JJAuthorizationManager *manager;
     } toPlatform:(AVOSCloudSNSType)plateform];
 }
 
-- (void)signInWithUserName:(NSString *)name password:(NSString *)password callBack:(JJBooleanResultBlock)block {
+- (void)signInWithUserName:(NSString *)name password:(NSString *)password callBack:(HDBooleanResultBlock)block {
     [AVUser logInWithUsernameInBackground:name password:password block:^(AVUser *user, NSError *error) {
         block(YES, error);
     }];
 }
 
-- (void)registerWithUserName:(NSString *)name andPassword:(NSString *)password callBack:(JJBooleanResultBlock)block {
+- (void)registerWithUserName:(NSString *)name andPassword:(NSString *)password callBack:(HDBooleanResultBlock)block {
     AVUser *user = [[AVUser alloc] init];
     user.username = name;
     user.password = password;
@@ -106,7 +106,7 @@ static JJAuthorizationManager *manager;
     }];
 }
 
-- (void)findUsersByIDs:(NSArray *)userIDs callBack:(JJArrayResultBlock)block {
+- (void)findUsersByIDs:(NSArray *)userIDs callBack:(HDArrayResultBlock)block {
     AVQuery *q = [AVUser query];
     [q whereKey:@"objectId" containedIn:userIDs];
     [q findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -114,7 +114,7 @@ static JJAuthorizationManager *manager;
     }];
 }
 
-- (void)findUsersByPartname:(NSString *)name callBack:(JJArrayResultBlock)block {
+- (void)findUsersByPartname:(NSString *)name callBack:(HDArrayResultBlock)block {
     AVQuery *q = [AVUser query];
     [q setCachePolicy:kAVCachePolicyNetworkElseCache];
     [q whereKey:@"username" containsString:name];

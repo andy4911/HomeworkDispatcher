@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189BCF6B1CF44EB0007A04F5 /* UITextField+JJValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BCF6A1CF44EB0007A04F5 /* UITextField+JJValidate.m */; };
+		189BCF6B1CF44EB0007A04F5 /* UITextField+HDValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */; };
 		18FFD65D1CF43C5000F9E7FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD65C1CF43C5000F9E7FA /* main.m */; };
 		18FFD6601CF43C5000F9E7FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD65F1CF43C5000F9E7FA /* AppDelegate.m */; };
 		18FFD6681CF43C5000F9E7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FFD6671CF43C5000F9E7FA /* Assets.xcassets */; };
 		18FFD66B1CF43C5000F9E7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FFD6691CF43C5000F9E7FA /* LaunchScreen.storyboard */; };
-		18FFD6761CF43C5000F9E7FA /* JobJunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD6751CF43C5000F9E7FA /* JobJunTests.m */; };
-		18FFD6811CF43C5000F9E7FA /* JobJunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD6801CF43C5000F9E7FA /* JobJunUITests.m */; };
-		18FFD6901CF43CDC00F9E7FA /* JJAuthorizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD68F1CF43CDC00F9E7FA /* JJAuthorizationManager.m */; };
-		6834F15CA1BDA78F551D7F6A /* libPods-JobJun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 820733795181F4F87C68B029 /* libPods-JobJun.a */; };
+		18FFD6761CF43C5000F9E7FA /* HomeworkDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD6751CF43C5000F9E7FA /* HomeworkDispatcherTests.m */; };
+		18FFD6811CF43C5000F9E7FA /* HomeworkDispatcherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD6801CF43C5000F9E7FA /* HomeworkDispatcherUITests.m */; };
+		18FFD6901CF43CDC00F9E7FA /* HDAuthorizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD68F1CF43CDC00F9E7FA /* HDAuthorizationManager.m */; };
+		CBE2BB7A3B4BB5AA70206355 /* libPods-HomeworkDispatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E4D0235D624C63210193A /* libPods-HomeworkDispatcher.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,27 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05B80FA06C2DE823F5ECE5A4 /* Pods-JobJun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobJun.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobJun/Pods-JobJun.release.xcconfig"; sourceTree = "<group>"; };
-		189BCF691CF44EB0007A04F5 /* UITextField+JJValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JJValidate.h"; sourceTree = "<group>"; };
-		189BCF6A1CF44EB0007A04F5 /* UITextField+JJValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JJValidate.m"; sourceTree = "<group>"; };
-		18FFD6581CF43C5000F9E7FA /* JobJun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobJun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HDValidate.h"; sourceTree = "<group>"; };
+		189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HDValidate.m"; sourceTree = "<group>"; };
+		18FFD6581CF43C5000F9E7FA /* HomeworkDispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkDispatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FFD65C1CF43C5000F9E7FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18FFD65E1CF43C5000F9E7FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18FFD65F1CF43C5000F9E7FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18FFD6671CF43C5000F9E7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FFD66A1CF43C5000F9E7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18FFD66C1CF43C5000F9E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18FFD6711CF43C5000F9E7FA /* JobJunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobJunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18FFD6751CF43C5000F9E7FA /* JobJunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobJunTests.m; sourceTree = "<group>"; };
+		18FFD6711CF43C5000F9E7FA /* HomeworkDispatcher.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkDispatcher.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FFD6751CF43C5000F9E7FA /* HomeworkDispatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkDispatcherTests.m; sourceTree = "<group>"; };
 		18FFD6771CF43C5000F9E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18FFD67C1CF43C5000F9E7FA /* JobJunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobJunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18FFD6801CF43C5000F9E7FA /* JobJunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobJunUITests.m; sourceTree = "<group>"; };
+		18FFD67C1CF43C5000F9E7FA /* HomeworkDispatcher.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkDispatcher.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FFD6801CF43C5000F9E7FA /* HomeworkDispatcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkDispatcherUITests.m; sourceTree = "<group>"; };
 		18FFD6821CF43C5000F9E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18FFD68E1CF43CD100F9E7FA /* JJAuthorizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAuthorizationManager.h; sourceTree = "<group>"; };
-		18FFD68F1CF43CDC00F9E7FA /* JJAuthorizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAuthorizationManager.m; sourceTree = "<group>"; };
-		18FFD6911CF43E4300F9E7FA /* JJCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCommon.h; sourceTree = "<group>"; };
-		820733795181F4F87C68B029 /* libPods-JobJun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JobJun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1B2C2F486A391A41E5349E9 /* Pods-JobJun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobJun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobJun/Pods-JobJun.debug.xcconfig"; sourceTree = "<group>"; };
+		18FFD68E1CF43CD100F9E7FA /* HDAuthorizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDAuthorizationManager.h; sourceTree = "<group>"; };
+		18FFD68F1CF43CDC00F9E7FA /* HDAuthorizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDAuthorizationManager.m; sourceTree = "<group>"; };
+		18FFD6911CF43E4300F9E7FA /* HDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDCommon.h; sourceTree = "<group>"; };
+		3F7E4D0235D624C63210193A /* libPods-HomeworkDispatcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeworkDispatcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED8EDC96E5F31825BD8891 /* Pods-HomeworkDispatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkDispatcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeworkDispatcher/Pods-HomeworkDispatcher.release.xcconfig"; sourceTree = "<group>"; };
+		7CD7E554186B2892E8683B68 /* Pods-HomeworkDispatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkDispatcher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeworkDispatcher/Pods-HomeworkDispatcher.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6834F15CA1BDA78F551D7F6A /* libPods-JobJun.a in Frameworks */,
+				CBE2BB7A3B4BB5AA70206355 /* libPods-HomeworkDispatcher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +88,9 @@
 		18FFD64F1CF43C5000F9E7FA = {
 			isa = PBXGroup;
 			children = (
-				18FFD65A1CF43C5000F9E7FA /* JobJun */,
-				18FFD6741CF43C5000F9E7FA /* JobJunTests */,
-				18FFD67F1CF43C5000F9E7FA /* JobJunUITests */,
+				18FFD65A1CF43C5000F9E7FA /* HomeworkDispatcher */,
+				18FFD6741CF43C5000F9E7FA /* HomeworkDispatcherTests */,
+				18FFD67F1CF43C5000F9E7FA /* HomeworkDispatcherUITests */,
 				18FFD6591CF43C5000F9E7FA /* Products */,
 				7E5731F2BB435A3A1A5566B5 /* Pods */,
 				E074C9906C420FA895FE2DA0 /* Frameworks */,
@@ -100,29 +100,29 @@
 		18FFD6591CF43C5000F9E7FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18FFD6581CF43C5000F9E7FA /* JobJun.app */,
-				18FFD6711CF43C5000F9E7FA /* JobJunTests.xctest */,
-				18FFD67C1CF43C5000F9E7FA /* JobJunUITests.xctest */,
+				18FFD6581CF43C5000F9E7FA /* HomeworkDispatcher.app */,
+				18FFD6711CF43C5000F9E7FA /* HomeworkDispatcher.xctest */,
+				18FFD67C1CF43C5000F9E7FA /* HomeworkDispatcher.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18FFD65A1CF43C5000F9E7FA /* JobJun */ = {
+		18FFD65A1CF43C5000F9E7FA /* HomeworkDispatcher */ = {
 			isa = PBXGroup;
 			children = (
-				18FFD68E1CF43CD100F9E7FA /* JJAuthorizationManager.h */,
-				18FFD68F1CF43CDC00F9E7FA /* JJAuthorizationManager.m */,
-				189BCF691CF44EB0007A04F5 /* UITextField+JJValidate.h */,
-				189BCF6A1CF44EB0007A04F5 /* UITextField+JJValidate.m */,
+				18FFD68E1CF43CD100F9E7FA /* HDAuthorizationManager.h */,
+				18FFD68F1CF43CDC00F9E7FA /* HDAuthorizationManager.m */,
+				189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */,
+				189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */,
 				18FFD65E1CF43C5000F9E7FA /* AppDelegate.h */,
 				18FFD65F1CF43C5000F9E7FA /* AppDelegate.m */,
-				18FFD6911CF43E4300F9E7FA /* JJCommon.h */,
+				18FFD6911CF43E4300F9E7FA /* HDCommon.h */,
 				18FFD6671CF43C5000F9E7FA /* Assets.xcassets */,
 				18FFD6691CF43C5000F9E7FA /* LaunchScreen.storyboard */,
 				18FFD66C1CF43C5000F9E7FA /* Info.plist */,
 				18FFD65B1CF43C5000F9E7FA /* Supporting Files */,
 			);
-			path = JobJun;
+			path = HomeworkDispatcher;
 			sourceTree = "<group>";
 		};
 		18FFD65B1CF43C5000F9E7FA /* Supporting Files */ = {
@@ -133,29 +133,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18FFD6741CF43C5000F9E7FA /* JobJunTests */ = {
+		18FFD6741CF43C5000F9E7FA /* HomeworkDispatcherTests */ = {
 			isa = PBXGroup;
 			children = (
-				18FFD6751CF43C5000F9E7FA /* JobJunTests.m */,
+				18FFD6751CF43C5000F9E7FA /* HomeworkDispatcherTests.m */,
 				18FFD6771CF43C5000F9E7FA /* Info.plist */,
 			);
-			path = JobJunTests;
+			path = HomeworkDispatcherTests;
 			sourceTree = "<group>";
 		};
-		18FFD67F1CF43C5000F9E7FA /* JobJunUITests */ = {
+		18FFD67F1CF43C5000F9E7FA /* HomeworkDispatcherUITests */ = {
 			isa = PBXGroup;
 			children = (
-				18FFD6801CF43C5000F9E7FA /* JobJunUITests.m */,
+				18FFD6801CF43C5000F9E7FA /* HomeworkDispatcherUITests.m */,
 				18FFD6821CF43C5000F9E7FA /* Info.plist */,
 			);
-			path = JobJunUITests;
+			path = HomeworkDispatcherUITests;
 			sourceTree = "<group>";
 		};
 		7E5731F2BB435A3A1A5566B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F1B2C2F486A391A41E5349E9 /* Pods-JobJun.debug.xcconfig */,
-				05B80FA06C2DE823F5ECE5A4 /* Pods-JobJun.release.xcconfig */,
+				7CD7E554186B2892E8683B68 /* Pods-HomeworkDispatcher.debug.xcconfig */,
+				52ED8EDC96E5F31825BD8891 /* Pods-HomeworkDispatcher.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 		E074C9906C420FA895FE2DA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				820733795181F4F87C68B029 /* libPods-JobJun.a */,
+				3F7E4D0235D624C63210193A /* libPods-HomeworkDispatcher.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18FFD6571CF43C5000F9E7FA /* JobJun */ = {
+		18FFD6571CF43C5000F9E7FA /* HomeworkDispatcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18FFD6851CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "JobJun" */;
+			buildConfigurationList = 18FFD6851CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "HomeworkDispatcher" */;
 			buildPhases = (
 				4C9648FD08A2AF178587942B /* 📦 Check Pods Manifest.lock */,
 				18FFD6541CF43C5000F9E7FA /* Sources */,
@@ -186,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = JobJun;
+			name = HomeworkDispatcher;
 			productName = JobJun;
-			productReference = 18FFD6581CF43C5000F9E7FA /* JobJun.app */;
+			productReference = 18FFD6581CF43C5000F9E7FA /* HomeworkDispatcher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18FFD6701CF43C5000F9E7FA /* JobJunTests */ = {
+		18FFD6701CF43C5000F9E7FA /* HomeworkDispatcherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18FFD6881CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "JobJunTests" */;
+			buildConfigurationList = 18FFD6881CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "HomeworkDispatcherTests" */;
 			buildPhases = (
 				18FFD66D1CF43C5000F9E7FA /* Sources */,
 				18FFD66E1CF43C5000F9E7FA /* Frameworks */,
@@ -204,14 +204,14 @@
 			dependencies = (
 				18FFD6731CF43C5000F9E7FA /* PBXTargetDependency */,
 			);
-			name = JobJunTests;
+			name = HomeworkDispatcherTests;
 			productName = JobJunTests;
-			productReference = 18FFD6711CF43C5000F9E7FA /* JobJunTests.xctest */;
+			productReference = 18FFD6711CF43C5000F9E7FA /* HomeworkDispatcher.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		18FFD67B1CF43C5000F9E7FA /* JobJunUITests */ = {
+		18FFD67B1CF43C5000F9E7FA /* HomeworkDispatcherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18FFD68B1CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "JobJunUITests" */;
+			buildConfigurationList = 18FFD68B1CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "HomeworkDispatcherUITests" */;
 			buildPhases = (
 				18FFD6781CF43C5000F9E7FA /* Sources */,
 				18FFD6791CF43C5000F9E7FA /* Frameworks */,
@@ -222,9 +222,9 @@
 			dependencies = (
 				18FFD67E1CF43C5000F9E7FA /* PBXTargetDependency */,
 			);
-			name = JobJunUITests;
+			name = HomeworkDispatcherUITests;
 			productName = JobJunUITests;
-			productReference = 18FFD67C1CF43C5000F9E7FA /* JobJunUITests.xctest */;
+			productReference = 18FFD67C1CF43C5000F9E7FA /* HomeworkDispatcher.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18FFD6531CF43C5000F9E7FA /* Build configuration list for PBXProject "JobJun" */;
+			buildConfigurationList = 18FFD6531CF43C5000F9E7FA /* Build configuration list for PBXProject "HomeworkDispatcher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -262,9 +262,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18FFD6571CF43C5000F9E7FA /* JobJun */,
-				18FFD6701CF43C5000F9E7FA /* JobJunTests */,
-				18FFD67B1CF43C5000F9E7FA /* JobJunUITests */,
+				18FFD6571CF43C5000F9E7FA /* HomeworkDispatcher */,
+				18FFD6701CF43C5000F9E7FA /* HomeworkDispatcherTests */,
+				18FFD67B1CF43C5000F9E7FA /* HomeworkDispatcherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -308,7 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobJun/Pods-JobJun-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeworkDispatcher/Pods-HomeworkDispatcher-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4C9648FD08A2AF178587942B /* 📦 Check Pods Manifest.lock */ = {
@@ -338,7 +338,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobJun/Pods-JobJun-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeworkDispatcher/Pods-HomeworkDispatcher-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -350,8 +350,8 @@
 			files = (
 				18FFD6601CF43C5000F9E7FA /* AppDelegate.m in Sources */,
 				18FFD65D1CF43C5000F9E7FA /* main.m in Sources */,
-				18FFD6901CF43CDC00F9E7FA /* JJAuthorizationManager.m in Sources */,
-				189BCF6B1CF44EB0007A04F5 /* UITextField+JJValidate.m in Sources */,
+				18FFD6901CF43CDC00F9E7FA /* HDAuthorizationManager.m in Sources */,
+				189BCF6B1CF44EB0007A04F5 /* UITextField+HDValidate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FFD6761CF43C5000F9E7FA /* JobJunTests.m in Sources */,
+				18FFD6761CF43C5000F9E7FA /* HomeworkDispatcherTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FFD6811CF43C5000F9E7FA /* JobJunUITests.m in Sources */,
+				18FFD6811CF43C5000F9E7FA /* HomeworkDispatcherUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +376,12 @@
 /* Begin PBXTargetDependency section */
 		18FFD6731CF43C5000F9E7FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18FFD6571CF43C5000F9E7FA /* JobJun */;
+			target = 18FFD6571CF43C5000F9E7FA /* HomeworkDispatcher */;
 			targetProxy = 18FFD6721CF43C5000F9E7FA /* PBXContainerItemProxy */;
 		};
 		18FFD67E1CF43C5000F9E7FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18FFD6571CF43C5000F9E7FA /* JobJun */;
+			target = 18FFD6571CF43C5000F9E7FA /* HomeworkDispatcher */;
 			targetProxy = 18FFD67D1CF43C5000F9E7FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,25 +484,25 @@
 		};
 		18FFD6861CF43C5000F9E7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B2C2F486A391A41E5349E9 /* Pods-JobJun.debug.xcconfig */;
+			baseConfigurationReference = 7CD7E554186B2892E8683B68 /* Pods-HomeworkDispatcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JobJun/Info.plist;
+				INFOPLIST_FILE = HomeworkDispatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.JobJun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.HomeworkDispatcher;
+				PRODUCT_NAME = HomeworkDispatcher;
 			};
 			name = Debug;
 		};
 		18FFD6871CF43C5000F9E7FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05B80FA06C2DE823F5ECE5A4 /* Pods-JobJun.release.xcconfig */;
+			baseConfigurationReference = 52ED8EDC96E5F31825BD8891 /* Pods-HomeworkDispatcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JobJun/Info.plist;
+				INFOPLIST_FILE = HomeworkDispatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.JobJun;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.HomeworkDispatcher;
+				PRODUCT_NAME = HomeworkDispatcher;
 			};
 			name = Release;
 		};
@@ -510,11 +510,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = JobJunTests/Info.plist;
+				INFOPLIST_FILE = HomeworkDispatcherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.JobJunTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobJun.app/JobJun";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.HomeworkDispatcherTests;
+				PRODUCT_NAME = HomeworkDispatcher;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeworkDispatcher.app/HomeworkDispatcher";
 			};
 			name = Debug;
 		};
@@ -522,40 +522,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = JobJunTests/Info.plist;
+				INFOPLIST_FILE = HomeworkDispatcherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.JobJunTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobJun.app/JobJun";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.HomeworkDispatcherTests;
+				PRODUCT_NAME = HomeworkDispatcher;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeworkDispatcher.app/HomeworkDispatcher";
 			};
 			name = Release;
 		};
 		18FFD68C1CF43C5000F9E7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = JobJunUITests/Info.plist;
+				INFOPLIST_FILE = HomeworkDispatcherUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.JobJunUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JobJun;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.HomeworkDispatcherUITests;
+				PRODUCT_NAME = HomeworkDispatcher;
+				TEST_TARGET_NAME = HomeworkDispatcher;
 			};
 			name = Debug;
 		};
 		18FFD68D1CF43C5000F9E7FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = JobJunUITests/Info.plist;
+				INFOPLIST_FILE = HomeworkDispatcherUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.JobJunUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JobJun;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.HomeworkDispatcherUITests;
+				PRODUCT_NAME = HomeworkDispatcher;
+				TEST_TARGET_NAME = HomeworkDispatcher;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18FFD6531CF43C5000F9E7FA /* Build configuration list for PBXProject "JobJun" */ = {
+		18FFD6531CF43C5000F9E7FA /* Build configuration list for PBXProject "HomeworkDispatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18FFD6831CF43C5000F9E7FA /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18FFD6851CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "JobJun" */ = {
+		18FFD6851CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "HomeworkDispatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18FFD6861CF43C5000F9E7FA /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18FFD6881CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "JobJunTests" */ = {
+		18FFD6881CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "HomeworkDispatcherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18FFD6891CF43C5000F9E7FA /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18FFD68B1CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "JobJunUITests" */ = {
+		18FFD68B1CF43C5000F9E7FA /* Build configuration list for PBXNativeTarget "HomeworkDispatcherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18FFD68C1CF43C5000F9E7FA /* Debug */,

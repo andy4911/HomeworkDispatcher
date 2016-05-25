@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18FFD6571CF43C5000F9E7FA"
-               BuildableName = "JobJun.app"
-               BlueprintName = "JobJun"
-               ReferencedContainer = "container:JobJun.xcodeproj">
+               BuildableName = "HomeworkDispatcher.app"
+               BlueprintName = "HomeworkDispatcher"
+               ReferencedContainer = "container:HomeworkDispatcher.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18FFD6701CF43C5000F9E7FA"
-               BuildableName = "JobJunTests.xctest"
-               BlueprintName = "JobJunTests"
-               ReferencedContainer = "container:JobJun.xcodeproj">
+               BuildableName = "HomeworkDispatcher.xctest"
+               BlueprintName = "HomeworkDispatcherTests"
+               ReferencedContainer = "container:HomeworkDispatcher.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18FFD67B1CF43C5000F9E7FA"
-               BuildableName = "JobJunUITests.xctest"
-               BlueprintName = "JobJunUITests"
-               ReferencedContainer = "container:JobJun.xcodeproj">
+               BuildableName = "HomeworkDispatcher.xctest"
+               BlueprintName = "HomeworkDispatcherUITests"
+               ReferencedContainer = "container:HomeworkDispatcher.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18FFD6571CF43C5000F9E7FA"
-            BuildableName = "JobJun.app"
-            BlueprintName = "JobJun"
-            ReferencedContainer = "container:JobJun.xcodeproj">
+            BuildableName = "HomeworkDispatcher.app"
+            BlueprintName = "HomeworkDispatcher"
+            ReferencedContainer = "container:HomeworkDispatcher.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18FFD6571CF43C5000F9E7FA"
-            BuildableName = "JobJun.app"
-            BlueprintName = "JobJun"
-            ReferencedContainer = "container:JobJun.xcodeproj">
+            BuildableName = "HomeworkDispatcher.app"
+            BlueprintName = "HomeworkDispatcher"
+            ReferencedContainer = "container:HomeworkDispatcher.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18FFD6571CF43C5000F9E7FA"
-            BuildableName = "JobJun.app"
-            BlueprintName = "JobJun"
-            ReferencedContainer = "container:JobJun.xcodeproj">
+            BuildableName = "HomeworkDispatcher.app"
+            BlueprintName = "HomeworkDispatcher"
+            ReferencedContainer = "container:HomeworkDispatcher.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

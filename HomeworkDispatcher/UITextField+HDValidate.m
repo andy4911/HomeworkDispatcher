@@ -1,14 +1,14 @@
 //
-//  UITextField+JJValidate.m
-//  JobJun
+//  UITextField+HDValidate.m
+//  HomeworkDispatcher
 //
 //  Created by Apple on 16/5/24.
 //  Copyright © 2016年 Apple. All rights reserved.
 //
 
-#import "UITextField+JJValidate.h"
+#import "UITextField+HDValidate.h"
 
-@implementation UITextField (JJValidate)
+@implementation UITextField (HDValidate)
 
 - (BOOL)isEmpty {
     return self.text.length == 0;
