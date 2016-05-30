@@ -76,13 +76,16 @@ static HDAuthorizationManager *manager;
     }];
 }
 
-- (void)registerWithUserName:(NSString *)name andPassword:(NSString *)password callBack:(HDBooleanResultBlock)block {
+- (void)registerWithUserName:(NSString *)name group:(NSDictionary *)dict andPassword:(NSString *)password callBack:(HDBooleanResultBlock)block {
     AVUser *user = [[AVUser alloc] init];
     user.username = name;
     user.password = password;
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
+            AVUser *currentUser = [AVUser currentUser];
+            [currentUser setObject:dict forKey:@"group"];
+            [currentUser saveInBackground];
             block(YES, error);
         } else {
             NSLog(@"注册失败");
@@ -124,6 +127,23 @@ static HDAuthorizationManager *manager;
     [q findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         block(objects, error);
     }];
+}
+
+- (BOOL)changePortiaitWith:(UIImage *)image {
+    AVUser *currentUser = [AVUser currentUser];
+    __block BOOL isSucceed = YES;
+    
+    NSData *imageData = UIImagePNGRepresentation(image);
+    AVFile *file = [AVFile fileWithName:@"PortitaitImage" data:imageData];
+    [file saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (succeeded) {
+            [currentUser setObject:file.url forKey:@"PortitaitURL"];
+            [currentUser saveInBackground];
+        } else {
+            isSucceed = NO;
+        }
+    }];
+    return isSucceed;
 }
 
 @end

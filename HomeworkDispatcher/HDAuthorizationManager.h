@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HDCommon.h"
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(int, JKSNSType){
     // 新浪微博
@@ -46,7 +47,11 @@ typedef NS_ENUM(int, JKSNSType){
 */
 - (void)signInWithUserName:(NSString *)name password:(NSString *)password callBack:(HDBooleanResultBlock)block;
 
-- (void)registerWithUserName:(NSString *)name andPassword:(NSString *)password callBack:(HDBooleanResultBlock)block;
+/**
+ *  注册
+ *  @param dict     {@“school”:school name, @"college":college name, @"grade":grade, @"class":class} （所有值都是NSString）
+ */
+- (void)registerWithUserName:(NSString *)name group:(NSDictionary *)dict andPassword:(NSString *)password callBack:(HDBooleanResultBlock)block;
 
 //登出
 - (void)LoginOut;
@@ -71,5 +76,12 @@ typedef NS_ENUM(int, JKSNSType){
  *  @param block
  */
 - (void)findUsersByPartname:(NSString *)name callBack:(HDArrayResultBlock)block;
+
+/**
+ *  修改头像
+ *
+ *  @param image
+ */
+- (BOOL)changePortiaitWith:(UIImage *)image;
 
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182BDAB01CF74C0F0092719A /* HDDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BDAAF1CF74C0F0092719A /* HDDispatch.m */; };
+		18338B1E1CF690CF00D47E14 /* HDDispatcherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338B1D1CF690CF00D47E14 /* HDDispatcherManager.m */; };
+		18338B221CF6914800D47E14 /* HDCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338B211CF6914800D47E14 /* HDCacheManager.m */; };
 		189BCF6B1CF44EB0007A04F5 /* UITextField+HDValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */; };
 		18FFD65D1CF43C5000F9E7FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD65C1CF43C5000F9E7FA /* main.m */; };
 		18FFD6601CF43C5000F9E7FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD65F1CF43C5000F9E7FA /* AppDelegate.m */; };
@@ -36,8 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HDValidate.h"; sourceTree = "<group>"; };
-		189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HDValidate.m"; sourceTree = "<group>"; };
+		182BDAAE1CF74C0F0092719A /* HDDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDDispatch.h; sourceTree = "<group>"; };
+		182BDAAF1CF74C0F0092719A /* HDDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDDispatch.m; sourceTree = "<group>"; };
+		18338B1C1CF690CF00D47E14 /* HDDispatcherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDDispatcherManager.h; path = HomeworkDispatcher/HDDispatcherManager.h; sourceTree = "<group>"; };
+		18338B1D1CF690CF00D47E14 /* HDDispatcherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDDispatcherManager.m; path = HomeworkDispatcher/HDDispatcherManager.m; sourceTree = "<group>"; };
+		18338B201CF6914800D47E14 /* HDCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDCacheManager.h; sourceTree = "<group>"; };
+		18338B211CF6914800D47E14 /* HDCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDCacheManager.m; sourceTree = "<group>"; };
+		189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+HDValidate.h"; path = "HomeworkDispatcher/UITextField+HDValidate.h"; sourceTree = "<group>"; };
+		189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HDValidate.m"; path = "HomeworkDispatcher/UITextField+HDValidate.m"; sourceTree = "<group>"; };
 		18FFD6581CF43C5000F9E7FA /* HomeworkDispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkDispatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FFD65C1CF43C5000F9E7FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18FFD65E1CF43C5000F9E7FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,8 +60,8 @@
 		18FFD67C1CF43C5000F9E7FA /* HomeworkDispatcher.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkDispatcher.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FFD6801CF43C5000F9E7FA /* HomeworkDispatcherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeworkDispatcherUITests.m; sourceTree = "<group>"; };
 		18FFD6821CF43C5000F9E7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18FFD68E1CF43CD100F9E7FA /* HDAuthorizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDAuthorizationManager.h; sourceTree = "<group>"; };
-		18FFD68F1CF43CDC00F9E7FA /* HDAuthorizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDAuthorizationManager.m; sourceTree = "<group>"; };
+		18FFD68E1CF43CD100F9E7FA /* HDAuthorizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDAuthorizationManager.h; path = HomeworkDispatcher/HDAuthorizationManager.h; sourceTree = "<group>"; };
+		18FFD68F1CF43CDC00F9E7FA /* HDAuthorizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDAuthorizationManager.m; path = HomeworkDispatcher/HDAuthorizationManager.m; sourceTree = "<group>"; };
 		18FFD6911CF43E4300F9E7FA /* HDCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDCommon.h; sourceTree = "<group>"; };
 		3F7E4D0235D624C63210193A /* libPods-HomeworkDispatcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeworkDispatcher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ED8EDC96E5F31825BD8891 /* Pods-HomeworkDispatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkDispatcher.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeworkDispatcher/Pods-HomeworkDispatcher.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,9 +94,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182BDAAD1CF74BC40092719A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */,
+				189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */,
+				182BDAAE1CF74C0F0092719A /* HDDispatch.h */,
+				182BDAAF1CF74C0F0092719A /* HDDispatch.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		18338B1F1CF690F600D47E14 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				18338B1C1CF690CF00D47E14 /* HDDispatcherManager.h */,
+				18338B1D1CF690CF00D47E14 /* HDDispatcherManager.m */,
+				18338B201CF6914800D47E14 /* HDCacheManager.h */,
+				18338B211CF6914800D47E14 /* HDCacheManager.m */,
+				18FFD68E1CF43CD100F9E7FA /* HDAuthorizationManager.h */,
+				18FFD68F1CF43CDC00F9E7FA /* HDAuthorizationManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 		18FFD64F1CF43C5000F9E7FA = {
 			isa = PBXGroup;
 			children = (
+				182BDAAD1CF74BC40092719A /* Class */,
+				18338B1F1CF690F600D47E14 /* Manager */,
 				18FFD65A1CF43C5000F9E7FA /* HomeworkDispatcher */,
 				18FFD6741CF43C5000F9E7FA /* HomeworkDispatcherTests */,
 				18FFD67F1CF43C5000F9E7FA /* HomeworkDispatcherUITests */,
@@ -110,10 +145,6 @@
 		18FFD65A1CF43C5000F9E7FA /* HomeworkDispatcher */ = {
 			isa = PBXGroup;
 			children = (
-				18FFD68E1CF43CD100F9E7FA /* HDAuthorizationManager.h */,
-				18FFD68F1CF43CDC00F9E7FA /* HDAuthorizationManager.m */,
-				189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */,
-				189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */,
 				18FFD65E1CF43C5000F9E7FA /* AppDelegate.h */,
 				18FFD65F1CF43C5000F9E7FA /* AppDelegate.m */,
 				18FFD6911CF43E4300F9E7FA /* HDCommon.h */,
@@ -348,7 +379,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182BDAB01CF74C0F0092719A /* HDDispatch.m in Sources */,
+				18338B1E1CF690CF00D47E14 /* HDDispatcherManager.m in Sources */,
 				18FFD6601CF43C5000F9E7FA /* AppDelegate.m in Sources */,
+				18338B221CF6914800D47E14 /* HDCacheManager.m in Sources */,
 				18FFD65D1CF43C5000F9E7FA /* main.m in Sources */,
 				18FFD6901CF43CDC00F9E7FA /* HDAuthorizationManager.m in Sources */,
 				189BCF6B1CF44EB0007A04F5 /* UITextField+HDValidate.m in Sources */,
