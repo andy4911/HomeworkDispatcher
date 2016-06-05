@@ -10,7 +10,7 @@
 #import "HDDispatch.h"
 #import <FMDB.h>
 
-const NSString *createSQL = @"CREATE TABLE IF NOT EXISTS dispatches (content text, fromID text, deadLine text);";
+const NSString *createSQL = @"CREATE TABLE IF NOT EXISTS dispatches (id integer primary key autoincrement, content text, fromID text, deadLine text);";
 const NSString *insertSQL = @"INSERT INTO dispatches (content, fromID, deadLine) VALUES (?, ?, ?);";
 const NSString *selectSQL = @"SELECT * FROM dispatches;";
 const NSString *deleteSQL = @"DROP TABLE dispatches;";
