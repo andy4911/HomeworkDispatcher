@@ -41,6 +41,16 @@
     signInBtn.layer.cornerRadius = 20.0;
     //设置button文本的排列方式--居中
     signInBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
+    signInBtn.tag = 10000;
+    [signInBtn addTarget:self
+                  action:@selector(whenBtnPressed:)
+        forControlEvents:UIControlEventTouchDown];
+    [signInBtn addTarget:self
+                  action:@selector(BtnBackGroundColorNormal:)
+        forControlEvents:UIControlEventTouchUpInside];
+    [signInBtn addTarget:self
+                  action:@selector(whenBtnPressed:)
+        forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:signInBtn];
     
 #pragma mark 设置注册button
@@ -54,6 +64,10 @@
     logInBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
     //设置button文本的字体大小（这里为14号）
     logInBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    logInBtn.tag = 10001;
+    [logInBtn addTarget:self
+                 action:@selector(whenBtnPressed:)
+       forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:logInBtn];
     
 #pragma mark 设置输入账号的textFiled
@@ -210,8 +224,41 @@
     [UIView commitAnimations];
 }
 
+//点击任意空白处键盘弹回
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
+}
+
+//Btn点击事件
+- (void)whenBtnPressed:(UIButton *)button {
+    if (button.tag == 10000) {
+        
+    } else if (button.tag == 10001) {
+        
+    }
+}
+
+//Btn普通状态下的背景色
+- (void)BtnBackGroundColorNormal:(UIButton *)button {
+    
+    if (button.tag == 10000) {
+        button.backgroundColor = [UIColor redColor];
+    } else if (button,tag == 10001) {
+        return;
+    }
+    
+}
+
+//Btn高亮状态下的背景色
+- (void)BtnTurnColorWithHeightlight:(UIButton *)button {
+    
+    if (button.tag == 10000) {
+        button.backgroundColor = [UIColor orangeColor];
+    } else if (button.tag == 10001) {
+        return;
+    }
+    //高亮的颜色
+    
 }
 
 - (void)didReceiveMemoryWarning {
