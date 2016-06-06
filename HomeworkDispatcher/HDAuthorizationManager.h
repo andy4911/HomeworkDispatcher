@@ -84,4 +84,11 @@ typedef NS_ENUM(int, JKSNSType){
  */
 - (BOOL)changePortiaitWith:(UIImage *)image;
 
+/**
+ *  获取当前用户头像
+ *
+ *  @param block id object 是UIImage类型
+ */
+- (void)getPortiaitWithBlock:(HDIdResultBlock)block;
+
 @end
