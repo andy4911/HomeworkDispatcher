@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8774471D053B57008961D8 /* HDsingInBgLGDViewController in Resources */ = {isa = PBXBuildFile; fileRef = 0C8774461D053B57008961D8 /* HDsingInBgLGDViewController */; };
 		182BDAB01CF74C0F0092719A /* HDDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BDAAF1CF74C0F0092719A /* HDDispatch.m */; };
 		18338B1E1CF690CF00D47E14 /* HDDispatcherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338B1D1CF690CF00D47E14 /* HDDispatcherManager.m */; };
 		18338B221CF6914800D47E14 /* HDCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338B211CF6914800D47E14 /* HDCacheManager.m */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8774461D053B57008961D8 /* HDsingInBgLGDViewController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HDsingInBgLGDViewController; sourceTree = "<group>"; };
 		182BDAAE1CF74C0F0092719A /* HDDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDDispatch.h; sourceTree = "<group>"; };
 		182BDAAF1CF74C0F0092719A /* HDDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDDispatch.m; sourceTree = "<group>"; };
 		18338B1C1CF690CF00D47E14 /* HDDispatcherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDDispatcherManager.h; path = HomeworkDispatcher/HDDispatcherManager.h; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		182BDAAD1CF74BC40092719A /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				0C8774461D053B57008961D8 /* HDsingInBgLGDViewController */,
 				189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */,
 				189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */,
 				182BDAAE1CF74C0F0092719A /* HDDispatch.h */,
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FFD66B1CF43C5000F9E7FA /* LaunchScreen.storyboard in Resources */,
+				0C8774471D053B57008961D8 /* HDsingInBgLGDViewController in Resources */,
 				18FFD6681CF43C5000F9E7FA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
