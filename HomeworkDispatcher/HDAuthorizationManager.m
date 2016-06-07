@@ -1,4 +1,4 @@
-//
+ //
 //  Authorization.m
 //  Joker
 //
@@ -144,6 +144,19 @@ static HDAuthorizationManager *manager;
         }
     }];
     return isSucceed;
+}
+
+- (void)getPortiaitWithBlock:(HDIdResultBlock)block {
+    AVUser *user = [AVUser currentUser];
+    if (user) {
+        NSString *url = [user objectForKey:@"PortitaitURL"];
+        
+        AVFile *file = [AVFile fileWithURL:url];
+        [file getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
+            UIImage *image = [UIImage imageWithData:data];
+            block(image, error);
+        }];
+    }
 }
 
 @end
