@@ -11,6 +11,9 @@
 		182BDAB01CF74C0F0092719A /* HDDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 182BDAAF1CF74C0F0092719A /* HDDispatch.m */; };
 		18338B1E1CF690CF00D47E14 /* HDDispatcherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338B1D1CF690CF00D47E14 /* HDDispatcherManager.m */; };
 		18338B221CF6914800D47E14 /* HDCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18338B211CF6914800D47E14 /* HDCacheManager.m */; };
+		185011C51D0A995A00F6B6D4 /* HDHeadProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185011C21D0A995A00F6B6D4 /* HDHeadProfileView.m */; };
+		185011C61D0A995A00F6B6D4 /* HDTwoLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185011C41D0A995A00F6B6D4 /* HDTwoLinesView.m */; };
+		185011C91D0A996600F6B6D4 /* HDGiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185011C81D0A996600F6B6D4 /* HDGiftViewController.m */; };
 		189BCF6B1CF44EB0007A04F5 /* UITextField+HDValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */; };
 		18FFD65D1CF43C5000F9E7FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD65C1CF43C5000F9E7FA /* main.m */; };
 		18FFD6601CF43C5000F9E7FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFD65F1CF43C5000F9E7FA /* AppDelegate.m */; };
@@ -47,6 +50,12 @@
 		18338B1D1CF690CF00D47E14 /* HDDispatcherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDDispatcherManager.m; path = HomeworkDispatcher/HDDispatcherManager.m; sourceTree = "<group>"; };
 		18338B201CF6914800D47E14 /* HDCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDCacheManager.h; sourceTree = "<group>"; };
 		18338B211CF6914800D47E14 /* HDCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDCacheManager.m; sourceTree = "<group>"; };
+		185011C11D0A995A00F6B6D4 /* HDHeadProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDHeadProfileView.h; path = HomeworkDispatcher/HDHeadProfileView.h; sourceTree = "<group>"; };
+		185011C21D0A995A00F6B6D4 /* HDHeadProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDHeadProfileView.m; path = HomeworkDispatcher/HDHeadProfileView.m; sourceTree = "<group>"; };
+		185011C31D0A995A00F6B6D4 /* HDTwoLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDTwoLinesView.h; path = HomeworkDispatcher/HDTwoLinesView.h; sourceTree = "<group>"; };
+		185011C41D0A995A00F6B6D4 /* HDTwoLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDTwoLinesView.m; path = HomeworkDispatcher/HDTwoLinesView.m; sourceTree = "<group>"; };
+		185011C71D0A996600F6B6D4 /* HDGiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDGiftViewController.h; sourceTree = "<group>"; };
+		185011C81D0A996600F6B6D4 /* HDGiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDGiftViewController.m; sourceTree = "<group>"; };
 		189BCF691CF44EB0007A04F5 /* UITextField+HDValidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+HDValidate.h"; path = "HomeworkDispatcher/UITextField+HDValidate.h"; sourceTree = "<group>"; };
 		189BCF6A1CF44EB0007A04F5 /* UITextField+HDValidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HDValidate.m"; path = "HomeworkDispatcher/UITextField+HDValidate.m"; sourceTree = "<group>"; };
 		18FFD6581CF43C5000F9E7FA /* HomeworkDispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkDispatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +105,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180AF4C81D084FFB00597AE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185011C71D0A996600F6B6D4 /* HDGiftViewController.h */,
+				185011C81D0A996600F6B6D4 /* HDGiftViewController.m */,
+			);
+			name = Controller;
+			path = HomeworkDispatcher;
+			sourceTree = "<group>";
+		};
 		182BDAAD1CF74BC40092719A /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,9 +140,22 @@
 			name = Manager;
 			sourceTree = "<group>";
 		};
+		185011B41D09E26500F6B6D4 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				185011C11D0A995A00F6B6D4 /* HDHeadProfileView.h */,
+				185011C21D0A995A00F6B6D4 /* HDHeadProfileView.m */,
+				185011C31D0A995A00F6B6D4 /* HDTwoLinesView.h */,
+				185011C41D0A995A00F6B6D4 /* HDTwoLinesView.m */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
 		18FFD64F1CF43C5000F9E7FA = {
 			isa = PBXGroup;
 			children = (
+				185011B41D09E26500F6B6D4 /* profile */,
+				180AF4C81D084FFB00597AE6 /* Controller */,
 				182BDAAD1CF74BC40092719A /* Class */,
 				18338B1F1CF690F600D47E14 /* Manager */,
 				18FFD65A1CF43C5000F9E7FA /* HomeworkDispatcher */,
@@ -383,12 +415,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185011C61D0A995A00F6B6D4 /* HDTwoLinesView.m in Sources */,
+				185011C51D0A995A00F6B6D4 /* HDHeadProfileView.m in Sources */,
 				182BDAB01CF74C0F0092719A /* HDDispatch.m in Sources */,
 				18338B1E1CF690CF00D47E14 /* HDDispatcherManager.m in Sources */,
 				18FFD6601CF43C5000F9E7FA /* AppDelegate.m in Sources */,
 				18338B221CF6914800D47E14 /* HDCacheManager.m in Sources */,
 				18FFD65D1CF43C5000F9E7FA /* main.m in Sources */,
 				18FFD6901CF43CDC00F9E7FA /* HDAuthorizationManager.m in Sources */,
+				185011C91D0A996600F6B6D4 /* HDGiftViewController.m in Sources */,
 				189BCF6B1CF44EB0007A04F5 /* UITextField+HDValidate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
